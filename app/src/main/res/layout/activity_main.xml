@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/ll"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lhf.test.lhfexplosion.MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv_hello_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="reSet!"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gaode_map"
+        android:layout_below="@+id/tv_hello_word"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:id="@+id/iv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gaode_map"
+        android:layout_below="@+id/tv_hello_word"
+        android:layout_centerHorizontal="true"
+        android:layout_toLeftOf="@+id/iv"
+        />
+
+    <ImageView
+        android:id="@+id/iv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/gaode_map"
+        android:layout_below="@+id/tv_hello_word"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@+id/iv"
+        />
+</RelativeLayout>
